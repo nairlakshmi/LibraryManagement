@@ -69,8 +69,8 @@ public class BookTest {
         libraryService.save(firstLib);
         
         Library secondLib = new Library();
-        firstLib.setLibId(022);
-        firstLib.setLibName("Library 022");
+        secondLib.setLibId(022);
+        secondLib.setLibName("Library 022");
         libraryService.save(secondLib);
     }
 	
